@@ -527,7 +527,7 @@ header{
     #contents #main td {
         padding: 20px 0;
         color: #626262;
-        font-size: (14);
+        @include fontsize(14);
     }
 
     #contents #main th {
