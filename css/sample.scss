@@ -464,11 +464,19 @@ header{
             span {
                 color: $blue1;
                 font-weight: bold;
-                display: inline-block;
+                display: block;
                 margin-bottom: 3px;
+                
+                @media (min-width: 551px){
+                    .news_li li{
+                        list-style:none;
+                        padding-bottom: 5px;
+                    }
+                }
             }
         } //li
     } // .news_li
+    
     #sidebar h3 {
         color: $blue1;
         background-color: #f3f9fb;

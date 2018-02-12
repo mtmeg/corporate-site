@@ -288,8 +288,12 @@ h1 {
   .news_li li span {
     color: #42b9d0;
     font-weight: bold;
-    display: inline-block;
+    display: block;
     margin-bottom: 3px; }
+    @media (min-width: 551px) {
+      .news_li li span .news_li li {
+        list-style: none;
+        padding-bottom: 5px; } }
 
 #sidebar h3 {
   color: #42b9d0;
